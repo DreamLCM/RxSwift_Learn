@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform:ios, 11.2
+use_frameworks!
+
+abstract_target "Observable介绍_base" do
+
+pod 'RxSwift'
+pod 'RxCocoa'
+
+target "Observable介绍" do
+
+end
+end

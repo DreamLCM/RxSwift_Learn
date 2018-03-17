@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83E0448C205D0556005B1B7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E0448B205D0556005B1B7E /* AppDelegate.swift */; };
+		83E0448E205D0556005B1B7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E0448D205D0556005B1B7E /* ViewController.swift */; };
+		83E04491205D0556005B1B7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83E0448F205D0556005B1B7E /* Main.storyboard */; };
+		83E04493205D0556005B1B7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83E04492205D0556005B1B7E /* Assets.xcassets */; };
+		83E04496205D0556005B1B7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83E04494205D0556005B1B7E /* LaunchScreen.storyboard */; };
+		83E044A1205D0556005B1B7E /* Observable__Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E044A0205D0556005B1B7E /* Observable__Tests.swift */; };
+		8CB14064B73302D774E49DF4 /* Pods_Observable___base_Observable__.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8226D55CE6C87D17268756B /* Pods_Observable___base_Observable__.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83E0449D205D0556005B1B7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83E04480205D0555005B1B7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83E04487205D0556005B1B7E;
+			remoteInfo = "Observable介绍";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83E04488205D0556005B1B7E /* Observable介绍.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Observable介绍.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83E0448B205D0556005B1B7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83E0448D205D0556005B1B7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83E04490205D0556005B1B7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83E04492205D0556005B1B7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83E04495205D0556005B1B7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83E04497205D0556005B1B7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83E0449C205D0556005B1B7E /* Observable介绍Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Observable介绍Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83E044A0205D0556005B1B7E /* Observable__Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable__Tests.swift; sourceTree = "<group>"; };
+		83E044A2205D0556005B1B7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4363DF439DF15995B4519BE /* Pods-Observable介绍_base-Observable介绍.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Observable介绍_base-Observable介绍.release.xcconfig"; path = "Pods/Target Support Files/Pods-Observable介绍_base-Observable介绍/Pods-Observable介绍_base-Observable介绍.release.xcconfig"; sourceTree = "<group>"; };
+		E8226D55CE6C87D17268756B /* Pods_Observable___base_Observable__.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Observable___base_Observable__.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF38173E8204B3845BA0A725 /* Pods-Observable介绍_base-Observable介绍.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Observable介绍_base-Observable介绍.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Observable介绍_base-Observable介绍/Pods-Observable介绍_base-Observable介绍.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83E04485205D0556005B1B7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB14064B73302D774E49DF4 /* Pods_Observable___base_Observable__.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E04499205D0556005B1B7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BDB47E8649E83D61991C444 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF38173E8204B3845BA0A725 /* Pods-Observable介绍_base-Observable介绍.debug.xcconfig */,
+				D4363DF439DF15995B4519BE /* Pods-Observable介绍_base-Observable介绍.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		83E0447F205D0555005B1B7E = {
+			isa = PBXGroup;
+			children = (
+				83E0448A205D0556005B1B7E /* Observable介绍 */,
+				83E0449F205D0556005B1B7E /* Observable介绍Tests */,
+				83E04489205D0556005B1B7E /* Products */,
+				3BDB47E8649E83D61991C444 /* Pods */,
+				BE013665C5F70F27E805A509 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		83E04489205D0556005B1B7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83E04488205D0556005B1B7E /* Observable介绍.app */,
+				83E0449C205D0556005B1B7E /* Observable介绍Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83E0448A205D0556005B1B7E /* Observable介绍 */ = {
+			isa = PBXGroup;
+			children = (
+				83E0448B205D0556005B1B7E /* AppDelegate.swift */,
+				83E0448D205D0556005B1B7E /* ViewController.swift */,
+				83E0448F205D0556005B1B7E /* Main.storyboard */,
+				83E04492205D0556005B1B7E /* Assets.xcassets */,
+				83E04494205D0556005B1B7E /* LaunchScreen.storyboard */,
+				83E04497205D0556005B1B7E /* Info.plist */,
+			);
+			path = "Observable介绍";
+			sourceTree = "<group>";
+		};
+		83E0449F205D0556005B1B7E /* Observable介绍Tests */ = {
+			isa = PBXGroup;
+			children = (
+				83E044A0205D0556005B1B7E /* Observable__Tests.swift */,
+				83E044A2205D0556005B1B7E /* Info.plist */,
+			);
+			path = "Observable介绍Tests";
+			sourceTree = "<group>";
+		};
+		BE013665C5F70F27E805A509 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8226D55CE6C87D17268756B /* Pods_Observable___base_Observable__.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83E04487205D0556005B1B7E /* Observable介绍 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83E044A5205D0556005B1B7E /* Build configuration list for PBXNativeTarget "Observable介绍" */;
+			buildPhases = (
+				69EBCC28768584970DA21B51 /* [CP] Check Pods Manifest.lock */,
+				83E04484205D0556005B1B7E /* Sources */,
+				83E04485205D0556005B1B7E /* Frameworks */,
+				83E04486205D0556005B1B7E /* Resources */,
+				262B81CD7D2B96537F7313B7 /* [CP] Embed Pods Frameworks */,
+				46A47368521F2F4B35A2047C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Observable介绍";
+			productName = "Observable介绍";
+			productReference = 83E04488205D0556005B1B7E /* Observable介绍.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83E0449B205D0556005B1B7E /* Observable介绍Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83E044A8205D0556005B1B7E /* Build configuration list for PBXNativeTarget "Observable介绍Tests" */;
+			buildPhases = (
+				83E04498205D0556005B1B7E /* Sources */,
+				83E04499205D0556005B1B7E /* Frameworks */,
+				83E0449A205D0556005B1B7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83E0449E205D0556005B1B7E /* PBXTargetDependency */,
+			);
+			name = "Observable介绍Tests";
+			productName = "Observable介绍Tests";
+			productReference = 83E0449C205D0556005B1B7E /* Observable介绍Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83E04480205D0555005B1B7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = CM;
+				TargetAttributes = {
+					83E04487205D0556005B1B7E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					83E0449B205D0556005B1B7E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 83E04487205D0556005B1B7E;
+					};
+				};
+			};
+			buildConfigurationList = 83E04483205D0555005B1B7E /* Build configuration list for PBXProject "Observable介绍" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83E0447F205D0555005B1B7E;
+			productRefGroup = 83E04489205D0556005B1B7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83E04487205D0556005B1B7E /* Observable介绍 */,
+				83E0449B205D0556005B1B7E /* Observable介绍Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83E04486205D0556005B1B7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E04496205D0556005B1B7E /* LaunchScreen.storyboard in Resources */,
+				83E04493205D0556005B1B7E /* Assets.xcassets in Resources */,
+				83E04491205D0556005B1B7E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E0449A205D0556005B1B7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		262B81CD7D2B96537F7313B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Observable介绍_base-Observable介绍/Pods-Observable介绍_base-Observable介绍-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Observable介绍_base-Observable介绍/Pods-Observable介绍_base-Observable介绍-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46A47368521F2F4B35A2047C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Observable介绍_base-Observable介绍/Pods-Observable介绍_base-Observable介绍-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69EBCC28768584970DA21B51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Observable介绍_base-Observable介绍-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83E04484205D0556005B1B7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E0448E205D0556005B1B7E /* ViewController.swift in Sources */,
+				83E0448C205D0556005B1B7E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E04498205D0556005B1B7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E044A1205D0556005B1B7E /* Observable__Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83E0449E205D0556005B1B7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83E04487205D0556005B1B7E /* Observable介绍 */;
+			targetProxy = 83E0449D205D0556005B1B7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83E0448F205D0556005B1B7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83E04490205D0556005B1B7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83E04494205D0556005B1B7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83E04495205D0556005B1B7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83E044A3205D0556005B1B7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83E044A4205D0556005B1B7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83E044A6205D0556005B1B7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF38173E8204B3845BA0A725 /* Pods-Observable介绍_base-Observable介绍.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TZAFH346DY;
+				INFOPLIST_FILE = "Observable介绍/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cm.Observable--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83E044A7205D0556005B1B7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4363DF439DF15995B4519BE /* Pods-Observable介绍_base-Observable介绍.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TZAFH346DY;
+				INFOPLIST_FILE = "Observable介绍/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cm.Observable--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		83E044A9205D0556005B1B7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Observable介绍Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cm.Observable--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Observable介绍.app/Observable介绍";
+			};
+			name = Debug;
+		};
+		83E044AA205D0556005B1B7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Observable介绍Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cm.Observable--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Observable介绍.app/Observable介绍";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83E04483205D0555005B1B7E /* Build configuration list for PBXProject "Observable介绍" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83E044A3205D0556005B1B7E /* Debug */,
+				83E044A4205D0556005B1B7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83E044A5205D0556005B1B7E /* Build configuration list for PBXNativeTarget "Observable介绍" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83E044A6205D0556005B1B7E /* Debug */,
+				83E044A7205D0556005B1B7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83E044A8205D0556005B1B7E /* Build configuration list for PBXNativeTarget "Observable介绍Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83E044A9205D0556005B1B7E /* Debug */,
+				83E044AA205D0556005B1B7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83E04480205D0555005B1B7E /* Project object */;
+}
